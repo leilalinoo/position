@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: lightgray;
+}
+header{
+    background-color: rgb(147, 247, 147);
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+}
+main{
+    width: 80%;
+    max-width: 800px;
+    margin: auto;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    background-color: white;
+    position: static;
+}
+header h1{
+    text-align: center;
+}
+h3{
+    margin: 0;
+}
+form{
+    text-align: center;
+    padding: 5px;
+}
+nav, form, main{
+    border: 1px solid black;
+}
+nav{
+    padding-top: 6%;
+}
+article{
+    text-align: justify;
+}
+footer{
+    background-color: rgb(147, 247, 147);
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+    bottom: 1px;
+}
